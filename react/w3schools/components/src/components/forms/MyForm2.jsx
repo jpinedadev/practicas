@@ -5,11 +5,11 @@ function MyForm2(){
 
     return(
         <form>
-            <label>Enter your name
+            <label>Enter your name:
                 <input
                     type="text"
                     value={name}
-                onChange={(e)=> setName(e.target.value)}/>
+                    onChange={(e)=> setName(e.target.value)}/>
             </label>
         </form>
         )

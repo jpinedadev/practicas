@@ -3,8 +3,9 @@ import React, {useState} from "react"
 function MyForm3(){
     const [name,setName] =  useState("");
 
-    const handleSubmit(event) => {
+    const handleSubmit = (event) => {
         event.preventDefault();
+        alert(`The name you entered was: ${name}`);
 
     }
 
@@ -13,11 +14,11 @@ function MyForm3(){
             <label>Enter your name:
                 <input
                     type="text"
-                    valuer={name}
-                    onChange={(e)=> setName({e.target.value})}
+                    value={name}
+                    onChange={(e)=> setName(e.target.value)}
                 />
             </label>
-            <input type="submit"/>
+            <input type="submit" value="Submit"/>
         </form>
         )
 }

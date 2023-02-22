@@ -8,6 +8,7 @@ import ErrorApp2 from './Components/ErrorApp2';
 import ProductApp from './Components/ProductApp';
 import ProductApp2 from './Components/ProductApp2';
 import ShoppingCart from './Components/ShoppingCart';
+import ShoppingCart2 from './Components/ShoppingCart2';
 
 function App() {
   return (
@@ -17,11 +18,12 @@ function App() {
         <ConditionalApp/>
         <ErrorApp/>
         <ProductApp/>}*/}
-        <ShoppingCart/>
+        {/*<ShoppingCart/>*/}
         {/*<CounterApp2/>
         <ConditionalApp2/>
         <ErrorApp2/>
         <ProductApp2/>*/}
+        <ShoppingCart2/>
     </div>
   );
 }
